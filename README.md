@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">LazyVim Web Clone Project</h1>
+<p align="center"><b>This project is designed to provide practice in utilizing modern frontend frameworks and styling layouts with contemporary tools such as Next.js and Tailwind CSS.</b></p>
+<p align="center">
+<a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="git" width="50" height="40"/> </a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png" alt="java" width="60" height="40"/> </a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://neovim.io/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark.svg" alt="css3" width="40" height="40"/> </a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
-## Getting Started
+## Showcase</h1>
+![expenseimg](https://github.com/user-attachments/assets/ef77fd94-6e67-45c7-b63a-27d66de64e90)
 
-First, run the development server:
+## Live Demo
+https://expense-tracker-project-gamma.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Descriptions
+- This project is created for practicing web development and enhancing skills in React, TailwindCSS, Neovim, REST APIs, as well as JavaScript and HTML.
+- This project includes three main features: adding (expenses or income), removing (expenses or income), and calculating the balance. It allows users to track their expenses and income, enabling better management of cash flow.
+- It supports responsive design.
+- Ui ref https://youtu.be/XuFDcZABiDQ?si=wcSwxImfwdY9GopM 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

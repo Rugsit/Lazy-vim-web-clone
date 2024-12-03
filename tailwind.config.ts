@@ -13,6 +13,9 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      noto: "Noto Sans",
+    }
   },
   plugins: [],
 } satisfies Config;
