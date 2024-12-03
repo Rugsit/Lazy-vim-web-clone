@@ -74,8 +74,8 @@ export default function Home() {
         <div ref={refRequire}>
           <p className="font-bold text-3xl mt-[40px] mb-[20px] scroll-mt-[80px]" id="require">⚡️ Requirements</p>
           <ul role="list" className="pl-5 list-inside marker:text-black list-disc mb-[20px]">
-            <li className="mt-[4px]">Neovim >= <strong>0.9.0</strong> (needs to be built with <strong>LuaJIT</strong>)</li>
-            <li className="mt-[4px]">Git >= <strong>2.19.0</strong> (for partial clones support)</li>
+            <li className="mt-[4px]">Neovim {">="} <strong>0.9.0</strong> (needs to be built with <strong>LuaJIT</strong>)</li>
+            <li className="mt-[4px]">Git {">="} <strong>2.19.0</strong> (for partial clones support)</li>
             <li className="mt-[4px]">a <a href="https://www.nerdfonts.com/" className="link">Nerd Font</a> (v3.0 or greater) (optional, but needed to display some icons)</li>
             <li className="mt-[4px]"><a href="https://www.nerdfonts.com/" className="link">lazygit</a> <strong>(optional)</strong></li>
             <li className="mt-[4px]">a <strong>C</strong> compiler for <code>nvim-treesitter</code>. See<a href="https://www.nerdfonts.com/" className="link"> here</a></li>

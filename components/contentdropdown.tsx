@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useState } from "react";
 
-export default function ContentDropDown({ target } : {target: string}) {
+export default function ContentDropDown() {
   const [toggleClick, setToggleClick] = useState(false);
   return (
     <div className="lg:hidden block">

@@ -33,7 +33,7 @@ export default function Sidebar({ stage, setStage }: {stage : boolean, setStage:
           <p>🛠️ Installation</p>
         </div>     
         <div className="hover:bg-zinc-100 px-2 py-1 cursor-pointer rounded">
-          <p>📰 What's new?</p>
+          <p>📰 What&aposs new?</p>
         </div>     
         <div className="hover:bg-zinc-100 px-2 py-1 cursor-pointer rounded">
           <p>⌨️ Keymaps</p>
