@@ -95,7 +95,7 @@ export default function Home() {
         </div>
         <div ref={refLearn}>
           <p className="font-bold text-3xl mt-[40px] mb-[20px] scroll-mt-[80px]" id="learn">🎓 Learn</p>
-          <p className="mb-[20px]">There's a great video created by <a className="link">@elijahmanor </a>with a walkthrough to get started.</p>
+          <p className="mb-[20px]">There{"'"}s a great video created by <a className="link">@elijahmanor </a>with a walkthrough to get started.</p>
           <Link href={"https://www.youtube.com/watch?v=N93cTbtLCIM"} target="_blank">
             <Image 
               src={"https://img.youtube.com/vi/N93cTbtLCIM/hqdefault.jpg"}
