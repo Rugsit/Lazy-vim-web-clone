@@ -21,13 +21,13 @@ export default function Home() {
     threshold: [0, 0.1, 0.25, 0.5, 0.75, 1]
   });
   const [prominentSection, setProminentSection] = useState<string>("");
-  const allSections = [
-    {title: "feature", entry: featureEntry?.intersectionRatio},
-    {title: "require", entry: requireEntry?.intersectionRatio},
-    {title: "learn", entry: learnEntry?.intersectionRatio},
-  ]
 
   useEffect(() => {
+    const allSections = [
+      {title: "feature", entry: featureEntry?.intersectionRatio},
+      {title: "require", entry: requireEntry?.intersectionRatio},
+      {title: "learn", entry: learnEntry?.intersectionRatio},
+    ]
     let max: number = 0;
     let targetSection = {title: "", entry:featureEntry?.intersectionRatio};
     allSections.forEach((item) => {
@@ -51,7 +51,7 @@ export default function Home() {
             🚀 Getting Started
           </button>
         </div>      
-        <ContentDropDown target={prominentSection}/>
+        <ContentDropDown />
         <p className="text-5xl font-bold my-5">🚀 Getting Started</p>
         <Lazyvimlogo />
         <p className="mb-[20px] mt-[20px]">LazyVim is a Neovim setup powered by 💤 lazy.nvim to make it easy to customize and extend your config.</p>

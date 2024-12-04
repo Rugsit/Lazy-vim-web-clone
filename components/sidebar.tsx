@@ -5,7 +5,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 
-export default function Sidebar({ stage, setStage }: {stage : boolean, setStage: React.Dispatch<React.SetStateAction<boolean>>}) {
+export default function Sidebar({ stage, setStage }: {stage?: boolean, setStage?: React.Dispatch<React.SetStateAction<boolean>>}) {
   const pathname = usePathname();
   const [sidebarState, setSidebarState] = useState({config: false, plugins: false, extras: false});
 
