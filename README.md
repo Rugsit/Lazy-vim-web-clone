@@ -10,14 +10,12 @@
 </p>
 
 ## Showcase</h1>
-![expenseimg](https://github.com/user-attachments/assets/ef77fd94-6e67-45c7-b63a-27d66de64e90)
+![lazy-vim-web-clone](https://github.com/user-attachments/assets/bf7416e9-9298-4ee6-ab3f-09469d87ec67)
 
 ## Live Demo
-https://expense-tracker-project-gamma.vercel.app/
+https://lazy-vim-web-clone.vercel.app/
 
 ## Descriptions
-- This project is created for practicing web development and enhancing skills in React, TailwindCSS, Neovim, REST APIs, as well as JavaScript and HTML.
-- This project includes three main features: adding (expenses or income), removing (expenses or income), and calculating the balance. It allows users to track their expenses and income, enabling better management of cash flow.
+- This project is created for practicing web development and enhancing skills in Next.js, TailwindCSS, Neovim, TypeScript, as well as JavaScript and HTML.
 - It supports responsive design.
-- Ui ref https://youtu.be/XuFDcZABiDQ?si=wcSwxImfwdY9GopM 
-
+- Ui ref https://www.lazyvim.org/
