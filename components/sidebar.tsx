@@ -22,7 +22,7 @@ export default function Sidebar({ stage, setStage }: {stage?: boolean, setStage?
           <p className="font-bold">LazyVim</p>
         </div>
         <FontAwesomeIcon icon={faXmark} className="text-2xl" onClick={() => {
-          setStage(!stage);
+          setStage?.(!stage);
         }}/>
       </div>
       <div className="p-3 flex flex-col gap-2 overflow-y-auto h-[calc(90vh-65px)]">
